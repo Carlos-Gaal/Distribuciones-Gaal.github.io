@@ -1,10 +1,62 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Distribuciones Gaal</title>
+  <meta charset="UTF-8">
+  <title>Distribuciones Gaal</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; }
+    header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #e0e0e0; padding: 10px; text-align: center; }
+    section { padding: 20px; }
+    .categoria { margin-bottom: 40px; }
+    .categoria img { max-width: 300px; border-radius: 10px; }
+    form { background-color: white; padding: 20px; border-radius: 10px; max-width: 400px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer { background-color: #004080; color: white; text-align: center; padding: 10px; margin-top: 40px; }
+  </style>
 </head>
 <body>
-    <h1>Bienvenidos a Distribuciones Gaal</h1>
-    <p>Muy pronto tendremos los mejores productos de novedad y tecnología. ¡Espéralo!</p>
+
+<header>
+  <h1>Distribuciones Gaal</h1>
+  <p>Distribución nacional de productos de calidad en México</p>
+</header>
+
+<nav>
+  <strong>Correo:</strong> <a href="mailto:ventas@distribuciones-gaal.com">ventas@distribuciones-gaal.com</a>
+</nav>
+
+<section>
+  <h2>Nuestras Categorías</h2>
+
+  <div class="categoria">
+    <h3>Tecnología</h3>
+    <img src="https://via.placeholder.com/300x200?text=Tecnología" alt="Tecnología">
+  </div>
+
+  <div class="categoria">
+    <h3>Hogar</h3>
+    <img src="https://via.placeholder.com/300x200?text=Hogar" alt="Hogar">
+  </div>
+
+  <div class="categoria">
+    <h3>Entretenimiento</h3>
+    <img src="https://via.placeholder.com/300x200?text=Entretenimiento" alt="Entretenimiento">
+  </div>
+</section>
+
+<section>
+  <h2>Solicita más información</h2>
+  <form action="mailto:ventas@distribuciones-gaal.com" method="post" enctype="text/plain">
+    <label>Nombre:<br><input type="text" name="nombre" required></label><br><br>
+    <label>Correo electrónico:<br><input type="email" name="email" required></label><br><br>
+    <label>Mensaje:<br><textarea name="mensaje" rows="5" required></textarea></label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Distribuciones Gaal. Todos los derechos reservados.
+</footer>
+
 </body>
 </html>
